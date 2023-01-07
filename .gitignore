@@ -1,1 +1,42 @@
+# testing
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*__pycache__*
+*.ipynb_checkpoints
+*.passwd
+
+*/**/output_files/*
+!*.gitkeep
+
+# secrets
+*.secrets.env
+
+# local
+config/values/env-local.env
+
+# mypy
+*.mypy_cache
+
+# intellij
+.idea/
+
+# vscode
+.vscode/
+
+# vim
+*.swp
+
+#MacOS
+.DS_Store
+
+# build folder for lambdas
+.build/*.zip
+
+# terraform
+.terraform/
+
+venv/
 config/local.env
